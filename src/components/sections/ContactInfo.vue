@@ -27,7 +27,8 @@ const urlShortened = location.hostname;
 
         <div class="contact">
           <div>
-            <a alt="Send an email" class="white" :href="'mailto:' + email"><svg-icon type="mdi" :path="mdiEmailOutline" /> {{ email }}</a>
+            <svg-icon type="mdi" :path="mdiEmailOutline" />
+            <a alt="Send an email" class="white" :href="'mailto:' + email">{{ email }}</a>
           </div>
           <div>
             <svg-icon type="mdi" :path="mdiWeb" /> {{ urlShortened }}
@@ -91,7 +92,7 @@ $business-card-height: 280px;
     .contact {
       bottom: var(--theme-base-margin);
       left: var(--theme-base-margin);
-      > div a {
+      > div {
         margin-top: 10px;
         display: flex;
         align-items: center;
