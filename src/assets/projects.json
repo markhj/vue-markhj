@@ -1,0 +1,33 @@
+[
+  {
+    "title": "C++ BBUnit",
+    "image": "https://images.pexels.com/photos/3678749/pexels-photo-3678749.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": [
+      "C++ BBUnit is a unit testing framework for C++, designed with a header-only implementation."
+    ],
+    "url": "https://github.com/markhj/cpp-bbunit"
+  },
+  {
+    "title": "The Vorthean Trials",
+    "image": "https://res.cloudinary.com/drfztvfdh/image/upload/v1726405385/enemy-1_mr42mm.png",
+    "description": [
+      "A cross-over between tower defense and real-time strategy built with Godot."
+    ]
+  },
+  {
+    "title": "Zeronetics",
+    "image": "https://images.pexels.com/photos/159369/xbox-xbox-one-microsoft-joystick-159369.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": [
+      "An experimental 3D game engine written for experimental and educational purposes."
+    ],
+    "url": "https://github.com/markhj/zeronetics"
+  },
+  {
+    "title": "HXL",
+    "image": "https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": [
+      "A data interchange format similar to JSON or XML, but with additional features such as references and inheritance."
+    ],
+    "url": "https://github.com/markhj/hxl-lang"
+  }
+]

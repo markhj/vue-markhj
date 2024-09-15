@@ -1,0 +1,60 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  &.white, &.white:hover {
+    color: #fff;
+  }
+  &.button {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fff;
+    cursor: pointer;
+    padding: 15px 40px 15px 40px;
+    border-radius: var(--theme-border-radius-normal);
+    color: #fff;
+    font-family: var(--theme-font-headline);
+    transition: var(--theme-default-transform-speed);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      inset: 50%;
+      border-radius: 50%;
+      z-index: -1;
+      transition: var(--theme-default-transform-speed);
+      background: #fff;
+    }
+    &:hover {
+      color: #000;
+      padding-right: 20px;
+      padding-left: 70px;
+      &::after {
+        inset: 3px;
+        border-radius: calc(var(--theme-border-radius-normal) * 0.7);
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}

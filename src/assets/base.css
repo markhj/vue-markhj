@@ -1,0 +1,62 @@
+:root {
+  --theme-bg-dark: rgb(15, 17, 20);
+  --theme-bg-light: rgb(35, 37, 40);
+
+  --theme-color-ui-primary: #fff;
+
+  --theme-color-primary: #054AC7;
+  --theme-color-secondary: #9A006F;
+
+  --theme-nav-dark: rgb(15, 17, 20);
+  --theme-nav-light: rgb(35, 37, 40);
+  --theme-nav-height: 40px;
+
+  --theme-border-radius-normal: 15px;
+  --theme-border-radius-large: 50px;
+
+  --theme-default-transform-speed: 200ms;
+  --theme-appear-transform-speed: 1000ms;
+
+  --theme-text-color: #fff;
+
+  --theme-base-margin: 30px;
+  --theme-default-max-width: 1000px;
+
+  --theme-font-body: 'Roboto', Verdana, Arial;
+  --theme-font-headline: 'IBM Plex Sans', Verdana, Arial;
+  --theme-font-mono: 'IBM Plex Mono';
+
+  --theme-shadow: 3px 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  color: var(--theme-text-color);
+  min-height: 100vh;
+  background: linear-gradient(20deg, var(--theme-bg-dark), var(--theme-bg-light));
+
+  font-family: var(--theme-font-body);
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--theme-font-headline);
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.standard-width-behavior {
+  max-width: var(--theme-default-max-width);
+  width: calc(100vw - 2 * var(--theme-base-margin));
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
