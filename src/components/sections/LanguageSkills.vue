@@ -1,6 +1,6 @@
 <script setup>
 import BasicSection from "@/components/sections/BasicSection.vue";
-import languages from '@/assets/languages.json'
+import languages from '@/assets/languages.json';
 import CardGrid from "@/components/CardGrid.vue";
 import StandardCard from "@/components/StandardCard.vue";
 </script>

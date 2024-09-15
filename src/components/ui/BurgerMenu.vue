@@ -14,7 +14,7 @@ const toggleOpenState = () => {
 
 const setAsClosed = () => state.opened = false;
 
-defineExpose({ toggleOpenState, setAsClosed })
+defineExpose({ toggleOpenState, setAsClosed });
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 <script setup>
 import {onMounted, onUnmounted, reactive} from "vue";
 
-const emit = defineEmits(['finished'])
+const emit = defineEmits(['finished']);
 
 const props = defineProps({
   text: String,
@@ -18,7 +18,7 @@ const state = reactive({
 const timerInterval = () => {
   if (state.parsedText.length >= props.text.length) {
     clearInterval(timer);
-    emit('finished')
+    emit('finished');
     state.glowAnimation = true;
     return;
   }

@@ -1,6 +1,6 @@
 <script setup>
 import {onMounted, onUnmounted, reactive, ref} from "vue";
-import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
 import BurgerMenu from "@/components/ui/BurgerMenu.vue";
 import LogoText from "@/components/ui/LogoText.vue";
 import MainMenu from "@/components/ui/MainMenu.vue";
@@ -24,32 +24,32 @@ const goTo = (to) => {
   });
   state.navOpen = false;
   burgerMenu.value.setAsClosed();
-}
+};
 
 const handleScroll = () => {
-  state.hasLeftTop = window.scrollY > 0
+  state.hasLeftTop = window.scrollY > 0;
 };
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
 
-    // The following is used to mark select objects that need animation when
-    // they appear in the view. They can be equipped with the "observe-viewport"
-    // class, and then implement the effect using .in-view.
-    // @todo: Find a better way to attaching the observer than using a timeout.
-    //    Problem is that not all elements are loaded.
-    setTimeout(() => {
-      const boxes = document.querySelectorAll('.observe-viewport');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in-view');
-          }
-        });
+  // The following is used to mark select objects that need animation when
+  // they appear in the view. They can be equipped with the "observe-viewport"
+  // class, and then implement the effect using .in-view.
+  // @todo: Find a better way to attaching the observer than using a timeout.
+  //    Problem is that not all elements are loaded.
+  setTimeout(() => {
+    const boxes = document.querySelectorAll('.observe-viewport');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
       });
+    });
 
-      boxes.forEach(box => observer.observe(box));
-    }, 1000)
+    boxes.forEach(box => observer.observe(box));
+  }, 1000);
 
 });
 

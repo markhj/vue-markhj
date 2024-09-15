@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
   project: Object
-})
+});
 
 </script>
 

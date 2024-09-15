@@ -5,7 +5,7 @@ import {reactive} from "vue";
 
 const state = reactive({
   finished: false
-})
+});
 </script>
 
 <template>

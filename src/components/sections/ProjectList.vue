@@ -1,5 +1,5 @@
 <script setup>
-import projects from '@/assets/projects.json'
+import projects from '@/assets/projects.json';
 import BasicSection from "@/components/sections/BasicSection.vue";
 import ProjectCard from "@/components/ProjectCard.vue";
 </script>
