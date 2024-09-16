@@ -1,14 +1,7 @@
-# markhj
+# Source code for markhj.net
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?label=license)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/54858bca74454e9ea1b40317b8dbe258)](https://app.codacy.com/gh/markhj/vue-markhj/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ## Project Setup
 
