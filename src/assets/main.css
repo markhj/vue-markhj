@@ -16,7 +16,7 @@ a {
     overflow: hidden;
     border: 2px solid #fff;
     cursor: pointer;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 40px;
     border-radius: var(--theme-border-radius-normal);
     color: #fff;
     font-family: var(--theme-font-headline);

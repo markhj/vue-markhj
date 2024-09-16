@@ -1,32 +1,23 @@
 :root {
-  --theme-bg-dark: rgb(15, 17, 20);
-  --theme-bg-light: rgb(35, 37, 40);
-
+  --theme-bg-dark: rgb(15 17 20);
+  --theme-bg-light: rgb(35 37 40);
   --theme-color-ui-primary: #fff;
-
   --theme-color-primary: #054AC7;
   --theme-color-secondary: #9A006F;
-
-  --theme-nav-dark: rgb(15, 17, 20);
-  --theme-nav-light: rgb(35, 37, 40);
+  --theme-nav-dark: rgb(15 17 20);
+  --theme-nav-light: rgb(35 37 40);
   --theme-nav-height: 40px;
-
   --theme-border-radius-normal: 15px;
   --theme-border-radius-large: 50px;
-
   --theme-default-transform-speed: 200ms;
   --theme-appear-transform-speed: 1000ms;
-
   --theme-text-color: #fff;
-
   --theme-base-margin: 30px;
   --theme-default-max-width: 1000px;
-
-  --theme-font-body: 'Roboto', Verdana, Arial;
-  --theme-font-headline: 'IBM Plex Sans', Verdana, Arial;
+  --theme-font-body: 'Roboto', verdana, Arial;
+  --theme-font-headline: 'IBM Plex Sans', verdana, Arial;
   --theme-font-mono: 'IBM Plex Mono';
-
-  --theme-shadow: 3px 3px 12px rgba(0, 0, 0, 0.25);
+  --theme-shadow: 3px 3px 12px rgba(0, 0, 0, 25%);
 }
 
 body {
