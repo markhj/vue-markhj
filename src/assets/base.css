@@ -14,10 +14,10 @@
   --theme-text-color: #fff;
   --theme-base-margin: 30px;
   --theme-default-max-width: 1000px;
-  --theme-font-body: 'Roboto', verdana, Arial;
-  --theme-font-headline: 'IBM Plex Sans', verdana, Arial;
+  --theme-font-body: 'Roboto', verdana, arial;
+  --theme-font-headline: 'IBM Plex Sans', verdana, arial;
   --theme-font-mono: 'IBM Plex Mono';
-  --theme-shadow: 3px 3px 12px rgba(0, 0, 0, 25%);
+  --theme-shadow: 3px 3px 12px rgba(0 0 0 / 25%);
 }
 
 body {
