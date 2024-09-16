@@ -22,7 +22,7 @@ const urlShortened = location.hostname;
       <div class="business-card">
         <div class="name">
           <strong>{{ firstName }} {{ lastName }}</strong>
-          <div>Software & Web Developer</div>
+          <div>Software &amp; Web Developer</div>
         </div>
 
         <div class="contact">
